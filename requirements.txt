@@ -1,0 +1,13 @@
+# Autonomous Brain - Requirements
+#
+# Core brain functionality uses Python stdlib only (no dependencies!)
+# These are optional for extended features:
+
+# Telegram bot functionality
+python-telegram-bot>=20.0
+
+# Claude API integration
+anthropic>=0.18.0
+
+# HTTP requests (for Moltbook, webhooks)
+requests>=2.28.0
